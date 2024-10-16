@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/sunmaize",
   linkedin: "https://www.linkedin.com/in/haoran-sun-hannah/",
   gmail: "hannahsun.ca@gmail.com",
-//  gitlab: "https://gitlab.com/saadpasta",
-//  facebook: "https://www.facebook.com/saad.pasta7",
+  //  gitlab: "https://gitlab.com/saadpasta",
+  //  facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@hannahsun.ca",
-//  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "EXPERIENCED BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Back end / User Interfaces for your web and mobile applications"
     ),
-    emoji(
-      "⚡ Integration of third party services such as AWS "
-    )
+    emoji("⚡ Integration of third party services such as AWS ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -130,9 +129,7 @@ const educationInfo = {
       subHeader: "Master in Control Science and Engineering",
       duration: "September 2018 - March 2021",
       desc: "Participated in the research of Robotics and published 2 patterns.",
-      descBullets: [
-        "Outstanding graduate of Tongji University 2021"
-      ]
+      descBullets: ["Outstanding graduate of Tongji University 2021"]
     },
     {
       schoolName: "Stanford University",
@@ -140,7 +137,7 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Automation",
       duration: "September 2013 - April 2017",
       desc: "Ranked 1st in the major. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [ "Outstanding graduate of Shanghai University 2018"]
+      descBullets: ["Outstanding graduate of Shanghai University 2018"]
     }
   ]
 };
@@ -150,15 +147,17 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-  {
-        Stack: "Backend",
-        progressPercentage: "90%"
-    },{
-         Stack: "Programming",
-         progressPercentage: "80%"
-    },{
-          Stack: "System Design", //Insert stack or technology you have experience in
-          progressPercentage: "70%" //Insert relative proficiency in percentage
+    {
+      Stack: "Backend",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "System Design", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,9 +174,7 @@ const workExperiences = {
       companylogo: require("./assets/images/meituanLogo.png"),
       date: "July 2022 – May 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "DO SOMETHING"
-      ]
+      descBullets: ["DO SOMETHING"]
     },
     {
       role: "Software Development Engineer",
@@ -185,9 +182,7 @@ const workExperiences = {
       companylogo: require("./assets/images/meituanLogo.png"),
       date: "May 2021 – July 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "DO SOMETHING"
-      ]
+      descBullets: ["DO SOMETHING"]
     },
     {
       role: "Software Engineer Intern",
